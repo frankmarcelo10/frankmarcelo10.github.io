@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gurajada', serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 1140px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menunav1 {
+    min-width: 1140px;
+    height: 80;
+    padding:20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.logotipo img {
+    height: 100px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 56px;
+}
+
+.cuerpo {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.p-texto img {
+    width: 100%;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.p-imagen {
+    width: 100%;
+}
+
+.p-imagen img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.iconoimg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cuerpo {
+    background-color: white;
+}
+
+.p-texto {
+    border-radius: 100px;
+    background-color: white;
+}
+.menunav, .portada, .lista, .carrusel, .formulario {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px, 0;
+}
+
+#formulario {
+    background-color: rgb(167, 166, 166);
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 500px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.textoicono {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deportivo {
+    display: flex;
+    width: 100%;
+    gap: 35px;
+}
+
+.Carrito {
+    display: flex;
+    justify-content: center;
+    padding: 34px;
+}
+
+.p-texto button  {
+    color: aliceblue;
+    margin-right: -160px;
+    margin-left: 840px;
+    margin-top: 15px;
+    border: none;
+    padding: 7px 30px;
+    cursor: pointer;
+    background-color:black
+
+}
