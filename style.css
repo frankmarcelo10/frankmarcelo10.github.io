@@ -448,3 +448,29 @@ td {
         text-align: center;
     }
 }
+.ads3, .ads5 {
+   width: 160px;
+   position: fixed;
+   top: 180px; 
+}
+
+.ads3 {
+    left: 60px;
+}
+
+.ads5 {
+    right: 60px;
+}
+
+.cerrar-ads, .cerrar-ads3 {
+position: absolute;
+cursor: pointer;
+right: 0;
+z-index: 1;
+background-color: white;
+
+& img {
+    width: 22px;
+    height: 22px;
+    }
+}
