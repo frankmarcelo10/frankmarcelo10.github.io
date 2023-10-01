@@ -447,6 +447,15 @@ td {
         flex-direction: column;
         text-align: center;
     }
+        #publicidad {
+        display: none;
+    }
+    #publicidad1 {
+        display: none;
+    }
+    #publicidad2 {
+        display: none;
+    }
 }
 .ads3, .ads5 {
    width: 160px;
